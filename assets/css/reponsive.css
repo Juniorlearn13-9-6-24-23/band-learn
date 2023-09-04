@@ -1,0 +1,115 @@
+@media (max-width: 739px) {
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+    
+    #nav {
+        display: block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: black; 
+    }
+
+    #nav .subnav a{
+        color:rgb(255, 255, 255);
+        padding: 5px 41px;
+        /* Trên Mobile tối thiểu là 42 đến 48px thì ngón tay mới bấm được */
+    }
+
+    #nav >li {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav >li:first-child {
+        display: inline-block;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #content .member-item {
+        margin-top: 30px;
+        width: 100%;
+        /* Giải quyết vấn đề ảnh nằm ngang khiến cho có khoảng trắng bên cạnh */
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    .contact-form {
+        margin-top: 32px;
+    }
+}
+
+/* Tablet & mobile */
+@media (max-width: 1023px) {
+    #nav .subnav a{
+        padding: 5px 34px;
+    }
+
+    .btn {
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    #footer .social-list {
+        font-size: 48px;
+    }
+
+    #footer .social-list a {
+        margin: 0 8px;
+    }
+
+    #footer .copyright a {
+        display: inline-block;
+        padding: 12px 0;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+    .contact-info a {
+        color:rgb(18, 104, 224);
+        opacity: 0.8;
+    }
+
+    .contact-info a:hover {
+        color:blue;
+        opacity: 1;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+
+/* PC */
+@media (min-width: 1024px) {
+    
+}
